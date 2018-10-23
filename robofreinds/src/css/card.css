@@ -1,0 +1,15 @@
+.card{
+	font-family:fantasy;
+	text-align:center;
+	height:400px;
+	width:400px;
+	margin:2px;
+	padding:10px;
+	transition-duration: all 5s;
+}
+
+.card:hover{
+	transform:scale(1.1);
+
+	}
+
