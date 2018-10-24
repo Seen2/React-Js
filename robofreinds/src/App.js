@@ -8,7 +8,7 @@ import {robots} from './robots';
 export default class App extends React.Component{
 	state={
 		robots:robots,
-		query:' ',
+		query:'',
 
 	}
 	onChangeSearch=(event)=>{
