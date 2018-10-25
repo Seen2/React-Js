@@ -3,9 +3,9 @@ import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 
 import App from './App';
-import {searchReducer} from './redux/reducers/searchReducer';
+import rootReducer from './redux/reducers/combineReducers';
 
-const store=createStore(searchReducer);
+const store=createStore(rootReducer);
 export default class Main extends React.Component{
 	render(){
 		console.log("In Main:",store.getState());

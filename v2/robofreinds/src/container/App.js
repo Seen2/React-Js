@@ -47,7 +47,7 @@ class App extends React.Component{
 const mapStateToProps=state=>{
 	console.log('in mapStateToProps',state);
 	return {
-        query:state.text,
+        query:state.search.text,
 	}
 }
 const mapDispatchToProps=(dispatch)=>{
