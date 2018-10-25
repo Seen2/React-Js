@@ -1,10 +1,10 @@
 import React from 'react';
 
-import CardList from './CardList';
-import Search from './Search';
-import './css/style.css';
-import {robots} from './robots';
-import Scroll from "./Scroll";
+import CardList from '../components/CardList';
+import Search from '../components/Search';
+import '../css/style.css';
+import {robots} from '../container/robots';
+import Scroll from "../components/Scroll";
 
 export default class App extends React.Component{
 	state={
